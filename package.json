@@ -1,7 +1,7 @@
 {
-  "name": "node-inspect-extracted",
+  "name": "@ludios/node-inspect-extracted",
   "version": "3.3.4",
-  "description": "Node's util.inspect, extracted for use on the Web",
+  "description": "Node's util.inspect, extracted for use on the Web, with an ES module build",
   "main": "./dist/inspect.js",
   "module": "./index.mjs",
   "browser": "./dist/inspect.js",
@@ -42,10 +42,10 @@
     "web",
     "browserify"
   ],
-  "homepage": "https://github.com/hildjj/node-inspect-extracted",
+  "homepage": "https://github.com/ludios/node-inspect-extracted",
   "repository": {
     "type": "git",
-    "url": "http://github.com/hildjj/node-inspect-extracted.git"
+    "url": "git+https://github.com/ludios/node-inspect-extracted.git"
   },
   "author": "Joe Hildebrand <joe-github@cursive.net>",
   "contributors": [
@@ -53,6 +53,9 @@
     "Eric Mika <eric@ericmika.com>"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^8.0.6",
     "@babel/eslint-parser": "^8.0.6",

@@ -1,5 +1,10 @@
 # node-inspect-extracted
 
+This is a fork of [hildjj/node-inspect-extracted](https://github.com/hildjj/node-inspect-extracted),
+published as `@ludios/node-inspect-extracted`, that adds an ES module build
+([hildjj/node-inspect-extracted#47](https://github.com/hildjj/node-inspect-extracted/pull/47)),
+so that `import` works in browsers without a bundler.
+
 This library provides an as-faithful-as-possible implementation of Node.js's
 [`util.inspect`](https://nodejs.org/api/util.html#util_util_inspect_object_options) function.
 
