@@ -327,4 +327,4 @@
      *
      * **Do not use in production code! Only use during testing.**
      */
-    export const Proxy: new <T>(target: T, handler: ProxyHandler<T>) => T;
+    export const Proxy: new <T extends object>(target: T, handler: ProxyHandler<T>) => T;
