@@ -25,7 +25,6 @@
     "check": "node tools/check",
     "lint": "eslint . && diff -q types/util.d.mts types/util.d.ts",
     "build": "webpack",
-    "prepack": "npm run build",
     "pretest": "npm run build",
     "test": "node tools/runtests",
     "pretest:all": "npm run build",
